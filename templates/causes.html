@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<div class="inner-banner">
+    <section class="w3l-breadcrumb py-5">
+        <div class="container py-lg-5 py-md-3">
+            <h2 class="title">Causes</h2>
+        </div>
+    </section>
+</div>
+<!-- banner bottom shape -->
+<div class="position-relative">
+    <div class="shape overflow-hidden">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+<!-- banner bottom shape -->
+<!--/causes-sec-->
+<div class="w3-services py-5">
+    <div class="container py-lg-4 py-md-3">
+        <div class="row w3-services-grids">
+            <div class="col-lg-4 col-md-6 causes-grid">
+                <div class="causes-grid-info">
+                    <a href="#cause" class="cause-title-wrap">
+                        
+                        <h4 class="cause-title">Wannan Kasuwacin This Business
+                        </h4>
+                      
+                    </a>
+                    <div class="barWrapper my-4">
+                        <div class="progress-box">
+                           
+                        </div>
+                    </div>
+                    <iframe src="https://www.youtube.com/embed/1vlJayErHBU" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 causes-grid">
+                <div class="causes-grid-info">
+                    <a href="#cause" class="cause-title-wrap">
+                        
+                        <h4 class="cause-title">Escaping From Terror Towards Drugs
+
+                        </h4>
+                      
+                    </a>
+                    <div class="barWrapper my-4">
+                        <div class="progress-box">
+                           
+                        </div>
+                    </div>
+                    <iframe src="https://www.youtube.com/embed/hU2W54pVayY" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 causes-grid">
+                <div class="causes-grid-info">
+                    <a href="#cause" class="cause-title-wrap">
+                        
+                        <h4 class="cause-title">Almost Lost to Stigma
+                        </h4>
+                      
+                    </a>
+                    <div class="barWrapper my-4">
+                        <div class="progress-box">
+                           
+                        </div>
+                    </div>
+                    <iframe src="https://www.youtube.com/embed/xVEzKucEyfo" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+<!--/causes-sec-->
+<section class="w3l-aboutblock2" id="story">
+    <div class="py-5">
+        <div class="container py-lg-4 py-md-3">
+            <div class="cwp4-two">
+                <div class="cwp4-text">
+                    <h3 class="title-big">Our Core Objectives</h3>
+                    <ul class="cont-4 mt-4">
+                        <li><span class="fa fa-check"></span>To creatively use media as an advocacy platform to improve the health and wellbeing of different communities.</li>
+                        <li><span class="fa fa-check"></span>To use different media platforms to promote access to quality education </li>
+                        <li><span class="fa fa-check"></span>To amplify the voices of marginalized communities and enable participation in decision making and governance</li>
+                        <li><span class="fa fa-check"></span>To enable communities, tell their stories 
+                            in the world.</li>
+                       
+                    </ul>
+                </div>
+                <div class="cwp4-text mt-md-5 mt-4">
+                    <h3 class="title-big">Thematic Areas</h3>
+                    <ul class="cont-4 mt-4">
+                        <li><span class="fa fa-check"></span>Health and wellbeing: TB, malaria, mental health, drug use etc: CMCD plans to use media as a tool to reduce the prevalence of harmful practices and health related issues, impact health policy making and promote health education in communities</li>
+                        <li><span class="fa fa-check"></span>Human Development: We would use media to influence youth development within the communities we serve</li>
+                        <li><span class="fa fa-check"></span>Social justice (encompasses human rights, governance, gender, equity): We would help drive causes and interventions to ensure equality, governance, and enforcement of human rights.</li>
+                        <li><span class="fa fa-check"></span>Peace building and conflict resolution: With the use of our platforms, we would be engaging in conflict resolution and peace building in our communities.</li>
+                        <li><span class="fa fa-check"></span>5.	Good governance: We would contribute to efforts to strengthen government institutions, ensure inclusiveness in the process of policy formulation for communities through capacity building and mobilization. </li>
+
+                    </ul>
+                    <a href="{% url 'contact' %}" class="btn btn-style btn-primary mt-md-4 mt-2"> Conact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
